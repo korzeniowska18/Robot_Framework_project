@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200507 16:28:05.882" generator="Robot 3.1.2 (Python 2.7.17 on linux2)">
+<suite source="/home/nata/natanat/Robot_Framework_projects/Tests/search_amis.robot" id="s1" name="Search Amis">
+<kw type="setup" name="Open the web page of the shop" library="resource">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${PAGE URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:06.042" level="INFO">Opening browser 'Chrome' to base url 'https://centrumamis.pl'.</msg>
+<status status="PASS" endtime="20200507 16:28:11.227" starttime="20200507 16:28:06.041"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:14.229" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:14.229" starttime="20200507 16:28:11.228"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20200507 16:28:14.500" starttime="20200507 16:28:14.230"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:17.501" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:17.502" starttime="20200507 16:28:14.500"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>${PAGE TITLE}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:17.510" level="INFO">Page title is 'Sklep zielarski Centrum Amis'.</msg>
+<status status="PASS" endtime="20200507 16:28:17.510" starttime="20200507 16:28:17.502"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:28:17.510" starttime="20200507 16:28:06.041"></status>
+</kw>
+<test id="s1-t1" name="Search product in the web shop">
+<kw name="Input keyword in serach field">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${SEARCH FIELD SELECTOR}</arg>
+<arg>${INPUT WORD}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:17.513" level="INFO">Typing text 'odchudzanie' into text field 'class=search__input'.</msg>
+<status status="PASS" endtime="20200507 16:28:17.680" starttime="20200507 16:28:17.512"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:20.681" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:20.681" starttime="20200507 16:28:17.680"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>${SUBMIT BUTTON}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:20.682" level="INFO">Clicking button 'css=.js__search-submit-btn'.</msg>
+<status status="PASS" endtime="20200507 16:28:24.129" starttime="20200507 16:28:20.681"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:27.131" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:27.131" starttime="20200507 16:28:24.130"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:28:27.131" starttime="20200507 16:28:17.512"></status>
+</kw>
+<kw name="Use filter for search product by category">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CATEGORY SELECTION}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:27.132" level="INFO">Clicking element 'xpath=//span[text()='Kategorie: (wybierz)']'.</msg>
+<status status="PASS" endtime="20200507 16:28:27.240" starttime="20200507 16:28:27.132"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>6s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:33.241" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:33.241" starttime="20200507 16:28:27.240"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CATEGORY SELECTED}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:33.243" level="INFO">Clicking element 'partial link=Kontrola wagi'.</msg>
+<status status="PASS" endtime="20200507 16:28:36.156" starttime="20200507 16:28:33.242"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:39.157" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:39.157" starttime="20200507 16:28:36.156"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:28:39.157" starttime="20200507 16:28:27.132"></status>
+</kw>
+<kw name="Use filter for search product by producent">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${PRODUCENT SELECTION}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:39.158" level="INFO">Clicking element 'xpath=//span[text()='Producent: (wybierz)']'.</msg>
+<status status="PASS" endtime="20200507 16:28:39.240" starttime="20200507 16:28:39.158"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:42.241" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:42.242" starttime="20200507 16:28:39.240"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${PRODUCENT SELECTED}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:42.244" level="INFO">Clicking element 'partial link=Colfarm'.</msg>
+<status status="PASS" endtime="20200507 16:28:44.995" starttime="20200507 16:28:42.243"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:47.996" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:47.996" starttime="20200507 16:28:44.995"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:28:47.996" starttime="20200507 16:28:39.158"></status>
+</kw>
+<kw name="Use filter for search product by price">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${PRICE SELECTION}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:47.997" level="INFO">Clicking element 'xpath=//span[text()='Cena: (wybierz)']'.</msg>
+<status status="PASS" endtime="20200507 16:28:48.069" starttime="20200507 16:28:47.997"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:51.070" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:51.071" starttime="20200507 16:28:48.069"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${PRICE LOWER}</arg>
+<arg>${INPUT PRICE LOWER}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:51.071" level="INFO">Typing text '20' into text field 'id=filterprice1'.</msg>
+<status status="PASS" endtime="20200507 16:28:51.220" starttime="20200507 16:28:51.071"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:53.221" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:53.222" starttime="20200507 16:28:51.220"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${PRICE HIGHER}</arg>
+<arg>${INPUT PRICE HIGHER}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:53.222" level="INFO">Typing text '50' into text field 'id=filterprice2'.</msg>
+<status status="PASS" endtime="20200507 16:28:53.433" starttime="20200507 16:28:53.222"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:55.434" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:55.434" starttime="20200507 16:28:53.434"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>${FILTER BUTTON SUBMIT}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:55.435" level="INFO">Clicking button 'id=filterprice'.</msg>
+<status status="PASS" endtime="20200507 16:28:57.753" starttime="20200507 16:28:55.434"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200507 16:28:59.754" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200507 16:28:59.755" starttime="20200507 16:28:57.753"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:28:59.755" starttime="20200507 16:28:47.997"></status>
+</kw>
+<kw name="Select first found product">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${FIRST SEARCHED PRODUCT}</arg>
+</arguments>
+<msg timestamp="20200507 16:28:59.757" level="INFO">Clicking element 'xpath=//*[@id="box_mainproducts"]/div[2]/div/div[1]/div/a[2]/span'.</msg>
+<status status="PASS" endtime="20200507 16:29:02.103" starttime="20200507 16:28:59.756"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200507 16:29:05.105" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200507 16:29:05.106" starttime="20200507 16:29:02.104"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:29:05.106" starttime="20200507 16:28:59.756"></status>
+</kw>
+<kw name="Add first found product in card">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>${BUTTON ADD TO CART}</arg>
+</arguments>
+<msg timestamp="20200507 16:29:05.107" level="INFO">Clicking button 'xpath=//*[@id="box_productfull"]/div[2]/div/div/div[2]/div[2]/div[1]/form/fieldset[1]/div[2]/button'.</msg>
+<status status="PASS" endtime="20200507 16:29:07.699" starttime="20200507 16:29:05.106"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:29:07.699" starttime="20200507 16:29:05.106"></status>
+</kw>
+<kw name="Equal alert message appeared after adding the product in cart with expected">
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${ALERT MESSAGE}</arg>
+</arguments>
+<msg timestamp="20200507 16:29:08.142" level="INFO">Current page contains text 'Produkt dodany do koszyka.'.</msg>
+<status status="PASS" endtime="20200507 16:29:08.142" starttime="20200507 16:29:07.703"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:29:08.143" starttime="20200507 16:29:07.702"></status>
+</kw>
+<kw name="Get product name in cart and equal category and producent names">
+<kw name="Get Element Attribute" library="SeleniumLibrary">
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="prodimg26125"]</arg>
+<arg>attribute=data-gallery-list</arg>
+</arguments>
+<assign>
+<var>${PRODUCT NAME IN CART}</var>
+</assign>
+<msg timestamp="20200507 16:29:08.168" level="INFO">${PRODUCT NAME IN CART} = Be Slim fast 60 kaps.</msg>
+<status status="PASS" endtime="20200507 16:29:08.168" starttime="20200507 16:29:08.144"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200507 16:29:18.170" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20200507 16:29:18.170" starttime="20200507 16:29:08.169"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${PRODUCT NAME IN CART}</arg>
+</arguments>
+<status status="PASS" endtime="20200507 16:29:18.172" starttime="20200507 16:29:18.170"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${CATEGORY NAME}</arg>
+</arguments>
+<msg timestamp="20200507 16:29:18.231" level="INFO">Current page contains text 'Kontrola wagi'.</msg>
+<status status="PASS" endtime="20200507 16:29:18.231" starttime="20200507 16:29:18.172"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${PRODUCENT NAME}</arg>
+</arguments>
+<msg timestamp="20200507 16:29:18.277" level="INFO">Current page contains text 'Colfarm'.</msg>
+<status status="PASS" endtime="20200507 16:29:18.277" starttime="20200507 16:29:18.232"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:29:18.277" starttime="20200507 16:29:08.143"></status>
+</kw>
+<kw name="Get price of the product in cart">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${PRODUCT PRICE IN CART}</arg>
+</arguments>
+<status status="PASS" endtime="20200507 16:29:18.280" starttime="20200507 16:29:18.279"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:29:18.280" starttime="20200507 16:29:18.279"></status>
+</kw>
+<status status="PASS" endtime="20200507 16:29:18.280" critical="yes" starttime="20200507 16:28:17.510"></status>
+</test>
+<kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20200507 16:29:18.436" starttime="20200507 16:29:18.282"></status>
+</kw>
+<doc>RobotFramework Selenium2Library documentation</doc>
+<status status="PASS" endtime="20200507 16:29:18.437" starttime="20200507 16:28:05.883"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Search Amis" pass="1">Search Amis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
