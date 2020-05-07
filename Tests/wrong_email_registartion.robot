@@ -2,6 +2,8 @@
 Library  SeleniumLibrary
 Documentation  RobotFramework Selenium2Library documentation
 
+Metadata  Author: Natalia Korzeniowska
+
 Suite Setup  Open the web page of the shop
 Suite Teardown    Close All Browsers
 
