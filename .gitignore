@@ -1,1 +1,6 @@
+*.html
+*.log
+selenium-screenshot*
+output.xml
+results
 
