@@ -36,6 +36,8 @@ ${PRODUCT PRICE IN CART}   "33,81 zł"
 
 *** Test Cases ***
 Search product in the web shop
+    [Tags]  notReady
+    
     Input keyword in serach field
     Use filter for search product by category
     Use filter for search product by producent
