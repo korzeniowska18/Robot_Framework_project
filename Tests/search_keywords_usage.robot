@@ -17,7 +17,7 @@ Suite Teardown    Close All Browsers
 *** Test Cases ***
 
 Testing Semantic Keywords for the search products in teh shop
-     [Tags]  critical
+     [Tags]  Ready
 
      Input first keyword of the product in Search field
      Accept searching using Search button
