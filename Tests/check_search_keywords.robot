@@ -16,6 +16,8 @@ Suite Teardown    Close All Browsers
 *** Test Cases ***
 
 Badanie semantycznych słów kluczowych dla sklepu do wyszukiwania produktów
+     [Tags]  notReady
+     
      Wpisać pierwsze słowo kluczowe produktu w polu Szukaj
      Zaakceptować wyszukiwanie przyciskiem
      Liczba produktów według pierwszego słowa kluczowego
