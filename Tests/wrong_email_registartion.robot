@@ -29,6 +29,8 @@ ${WRONG ALERT}   Registration page has mistake in Alert message.
 
 *** Test Cases ***
 Scenario: Valid registartion using wrong email
+    [Tags]  notReady
+    
     Select Registration page
     Input wrong email in user email field
     Input password and confirm it in password fields
