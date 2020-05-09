@@ -5,6 +5,7 @@ Documentation   This is a test suite to test search products on the page using s
 Resource   ../resources/resource.robot
 
 Metadata   Robot Framework version 3.1.2
+Metadata   Library version:	4.4.0
 Metadata   Author  Natalia Korzeniowska
 
 Suite Setup  Open the web page of the shop
