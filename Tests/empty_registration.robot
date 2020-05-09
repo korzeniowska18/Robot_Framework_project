@@ -23,7 +23,7 @@ Scenario: Valid registartion when all fields empty
     Click Registartion Button
     Equal Alert message
     Cancel Alert message and back to Registration page
-    Check that this is Registartion page
+    Confirm that this is Registartion page
 
 
 *** Keywords ***
@@ -44,6 +44,6 @@ Equal Alert message
 Cancel Alert message and back to Registration page
     Click Button  ${CANCEL ALERT MESSAGE}
 
-Check that this is Registartion page
+Confirm that this is Registartion page
     Page Should Contain   ${REGISTRATION PAGE INFORMATION}
 
