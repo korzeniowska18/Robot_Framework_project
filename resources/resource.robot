@@ -10,11 +10,16 @@ Documentation  RobotFramework Selenium2Library documentation
 ${BROWSER}      Chrome
 ${PAGE URL}    https://centrumamis.pl
 ${PAGE TITLE}    Sklep zielarski Centrum Amis
+
 ${REGISTRATION PAGE}   xpath=//span[text()='Zarejestruj się']
 ${REGISTRATION BUTTON}   xpath=/html/body/div[1]/div[3]/div/div/div[2]/div/form/fieldset/div[2]/div[7]/button
 ${ALERT MESSAGE}   Formularz rejestracji zawiera błędy.
 ${CANCEL ALERT MESSAGE}   xpath=/html/body/div[1]/div[3]/div/button
-${REGISTRATION PAGE SHOULD CONTAIN}   Rejestracja
+${REGISTRATION PAGE INFORMATION}   Rejestracja
+${INVALID REGISTRATION MESSAGE}   After registartion with empty data appeared alert:
+${USER EMAIL FIELD SELECTOR}    id=input_mail
+${USER PASSWORD FIELD SELECTOR}   id=input_pass1
+${USER PASSWORD CONFIRMATION FIELD SELECTOR}   id=input_pass2
 
 
 ${SEARCH FIELD SELECTOR}    class=search__input
