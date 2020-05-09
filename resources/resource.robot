@@ -44,6 +44,10 @@ Open the web page of the shop
 Select Registration page
     Click Element  ${REGISTRATION PAGE}
     Sleep  3 s
+    
+Click Registartion Button
+    Click Button   ${REGISTRATION BUTTON}
+    Sleep  3s
 
 The number of products by first keyword
      ${number products by first keyword} =  Get Element Count   xpath=//div[contains(@class, 'price f-row')]//em
