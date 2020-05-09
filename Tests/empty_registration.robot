@@ -14,7 +14,8 @@ Suite Teardown    Close All Browsers
 
 *** Test Cases ***
 Scenario: Valid registartion when all fields empty
-    [Tags]  notReady
+    [Tags]  critical
+    [Tags]  Ready
     
     Select Registration page
     Click Registartion Button
