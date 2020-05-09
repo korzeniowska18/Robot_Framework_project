@@ -28,10 +28,6 @@ Scenario: Valid registartion when all fields empty
 
 *** Keywords ***
 
-Select Registration page
-    Click Element  ${REGISTRATION PAGE}
-    Sleep  3 s
-
 Check and empty all required fields for registartion
     Clear Element Text   ${USER EMAIL FIELD SELECTOR}
     Sleep  3s
@@ -39,11 +35,6 @@ Check and empty all required fields for registartion
     Sleep   3s
     Clear Element Text  ${USER PASSWORD CONFIRMATION FIELD SELECTOR}
     Sleep   3s
-
-Click Registartion Button
-    Click Button   ${REGISTRATION BUTTON}
-    Sleep  3s
-
 
 Equal Alert message
     Page Should Contain    ${ALERT MESSAGE}
