@@ -31,7 +31,7 @@ Scenario 2. Add first product to cart and equal alert message with expected.
     [Tags]  critical   Ready
 
     Select first found product
-    Add first found product in card
+    Add first found product in cart
     Equal alert message appeared after adding the product in cart with expected
 
 Scenario 3. Assertion of the category, producent names and price for product in cart
@@ -56,6 +56,7 @@ Get product name in cart and equal category, producent names and price
      Should Be Equal   ${PRODUCT NAME IN CART}    ${EXPECTED PRODUCT NAME}
      Page Should Contain    ${CATEGORY NAME}
      Page Should Contain    ${PRODUCENT NAME}
+     Log To Console   Assertion of the category, producent names is correct.
 
 Equal price of the product in cart with expected according to filter
      Page Should Contain    ${PRODUCT PRICE IN CART}
