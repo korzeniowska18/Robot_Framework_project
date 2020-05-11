@@ -44,7 +44,6 @@ Scenario 3. Assertion of the category, producent names and price for product in 
 
 Equal alert message appeared after adding the product in cart with expected
      Page Should Contain  ${ALERT MESSAGE THAT PRODUCT ADDED TO CART}   loglevel=Alert about adding the product to cart not appeared.
-     Should Be Equal ${ALERT MESSAGE THAT PRODUCT ADDED TO CART}   Produkt dodany do koszyka.
      Log To Console   Alert message about adding the product to cart appeared correctly.
      Log To Console   Alert message is:
      Log To Console   ${ALERT MESSAGE THAT PRODUCT ADDED TO CART}
