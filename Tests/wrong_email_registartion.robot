@@ -1,8 +1,11 @@
 *** Settings ***
+
 Library  SeleniumLibrary
-Documentation  RobotFramework Selenium2Library documentation
+Library  Collections
+Documentation  This is a test suite to test registartion option on the page using wrong email.
 
 Metadata   Robot Framework version 3.1.2
+Metadata   Library version:	4.4.0
 Metadata   Author  Natalia Korzeniowska
 
 Suite Setup  Open the web page of the shop
@@ -16,27 +19,42 @@ ${REGISTRATION PAGE}   xpath=//span[text()='Zarejestruj się']
 ${USER EMAIL FIELD SELECTOR}    id=input_mail
 ${USER PASSWORD FIELD SELECTOR}   id=input_pass1
 ${USER PASSWORD CONFIRMATION FIELD SELECTOR}   id=input_pass2
-${INPUT WRONG EMAIL}   A1
+${INPUT WRONG EMAIL WITHOUT "@"}   A2
+${INPUT WRONG EMAIL}   ZB@zzzzz.pl
 ${INPUT PASSWORD}   12345678
 ${INPUT CONFIRMATION PASSWORD}   12345678
 ${CHECKBOX REGULATIONS}   id=additional_1
+${CHECKBOX BUTTON FOR REGULATIONS}   xpath=//div[contains(@class, 'input')]//span[2]//label
 ${REGISTRATION BUTTON}   xpath=/html/body/div[1]/div[3]/div/div/div[2]/div/form/fieldset/div[2]/div[7]/button
 ${RIGHT ALERT MESSAGE FOR WRONG EMAIL}   Formularz rejestracji zawiera błędy.
-${WRONG ALERT MESSAGE FOR WRONG EMAIL}   Dziękujemy za założenie konta.
+#${WRONG ALERT MESSAGE FOR WRONG EMAIL}   Dziękujemy za założenie konta.
 ${CANCEL ALERT MESSAGE}   xpath=/html/body/div[1]/div[3]/div/button
 ${REGISTRATION PAGE SHOULD CONTAIN}   Rejestracja
-${WRONG ALERT}   Registration page has mistake in Alert message.
+${WRONG ALERT}   Registration page has mistake in Alert message. Registration with wrong email should be impossible. In this case account with wrong email created and alert informed about successuful registration.
+${CORRECT ALERT}  Registration page has correct Alert message. Registration with wrong email impossible.
+${ERROR ABOUT EMAIL}   Nieprawidłowy format adresu e-mail
+${INCOMPLETE ADITIONAL ALERT}   After invalid registartion with wrong email not informed taht the issue is with email, only about mistake during registartion.
 
 *** Test Cases ***
+Scenario: Valid registartion using wrong email without "@"
+    [Tags]  critical
+    Select Registration page
+    Input wrong email without "@" in user email field
+    Input password and confirm it in password fields
+    Checkbox Regulations
+    Click Registartion Button
+    Equal Alert message
+    Close Alert message and back to Registration page
+
 Scenario: Valid registartion using wrong email
-    [Tags]  notReady
-    
+    [Tags]  critical
     Select Registration page
     Input wrong email in user email field
     Input password and confirm it in password fields
     Checkbox Regulations
     Click Registartion Button
     Equal Alert message
+    Close Alert message and back to Registration page
 
 
 *** Keywords ***
@@ -50,6 +68,10 @@ Select Registration page
     Click Element  ${REGISTRATION PAGE}
     Sleep  3 s
 
+Input wrong email without "@" in user email field
+     Input Text   ${USER EMAIL FIELD SELECTOR}  ${INPUT WRONG EMAIL WITHOUT "@"}
+     Sleep   3s
+
 Input wrong email in user email field
      Input Text   ${USER EMAIL FIELD SELECTOR}  ${INPUT WRONG EMAIL}
      Sleep   3s
@@ -61,10 +83,7 @@ Input password and confirm it in password fields
      Sleep   3s
 
 Checkbox Regulations
-     Page Should Contain Checkbox  ${CHECKBOX REGULATIONS}
-     #Select Checkbox    ${CHECKBOX REGULATIONS}
-     #Click Button  ${CHECKBOX REGULATIONS}
-     #Checkbox Should Be Selected  ${CHECKBOX REGULATIONS}
+     Click Element    ${CHECKBOX BUTTON FOR REGULATIONS}
      Sleep  3s
 
 
@@ -73,10 +92,11 @@ Click Registartion Button
     Sleep  3s
 
 Equal Alert message
-    Page Should Contain    ${RIGHT ALERT MESSAGE FOR WRONG EMAIL}
-    ${WRONG ALERT MESSAGE}=  Page Should Not Contain    ${WRONG ALERT MESSAGE FOR WRONG EMAIL}
+    Page Should Contain    ${RIGHT ALERT MESSAGE FOR WRONG EMAIL}  loglevel=${WRONG ALERT}
+    Page Should Contain    ${ERROR ABOUT EMAIL}   loglevel=${INCOMPLETE ADITIONAL ALERT}
+    Log To Console         ${CORRECT ALERT}
 
-    Log To Console  ${WRONG ALERT MESSAGE}=    ${WRONG ALERT}
+
 
 Close Alert message and back to Registration page
     Click Button  ${CANCEL ALERT MESSAGE}
