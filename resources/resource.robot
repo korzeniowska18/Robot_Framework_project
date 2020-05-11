@@ -185,3 +185,38 @@ The number of products from Category "KONTROLA WAGI" for which used keywords for
      Log To Console   ${PRODUCT NAME6}
      Log To Console   ${PRODUCT NAME7}
 
+Input keyword in serach field
+     Input Text   ${SEARCH FIELD SELECTOR}  ${FIRST KEYWORD}
+     Sleep   3s
+     Click Button   ${SUBMIT BUTTON}
+     Sleep  3s
+
+Use filter for search product by category
+     Click Element   ${CATEGORY SELECTION}
+     Sleep  6s
+     Click Element   ${CATEGORY SELECTED}
+     Sleep  3s
+
+Use filter for search product by producent
+     Click Element   ${PRODUCENT SELECTION}
+     Sleep  3s
+     Click Element   ${PRODUCENT SELECTED}
+     Sleep  3s
+
+Use filter for search product by price
+     Click Element   ${PRICE SELECTION}
+     Sleep   3s
+     Input Text    ${PRICE LOWER}   ${INPUT PRICE LOWER}
+     Sleep   2s
+     Input Text    ${PRICE HIGHER}   ${INPUT PRICE HIGHER}
+     Sleep   2s
+     Click Button   ${FILTER BUTTON SUBMIT}
+     Sleep   2s
+
+
+Select first found product
+     Click Element   ${FIRST SEARCHED PRODUCT}
+     Sleep   3s
+
+Add first found product in card
+     Click Button    ${BUTTON ADD TO CART}
