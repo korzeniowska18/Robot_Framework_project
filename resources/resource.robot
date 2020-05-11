@@ -22,6 +22,25 @@ ${USER PASSWORD FIELD SELECTOR}   id=input_pass1
 ${USER PASSWORD CONFIRMATION FIELD SELECTOR}   id=input_pass2
 
 
+${CATEGORY SELECTION}   xpath=//span[text()='Kategorie: (wybierz)']
+${CATEGORY SELECTED}    partial link=Kontrola wagi
+${PRODUCENT SELECTION}    xpath=//span[text()='Producent: (wybierz)']
+${PRODUCENT SELECTED}    partial link=Colfarm
+${PRICE SELECTION}    xpath=//span[text()='Cena: (wybierz)']
+${PRICE LOWER}           id=filterprice1
+${INPUT PRICE LOWER}    20
+${PRICE HIGHER}        id=filterprice2
+${INPUT PRICE HIGHER}   50
+${FILTER BUTTON SUBMIT}   id=filterprice
+${FIRST SEARCHED PRODUCT}   xpath=//*[@id="box_mainproducts"]/div[2]/div/div[1]/div/a[2]/span
+${BUTTON ADD TO CART}   xpath=//*[@id="box_productfull"]/div[2]/div/div/div[2]/div[2]/div[1]/form/fieldset[1]/div[2]/button
+${ALERT MESSAGE THAT PRODUCT ADDED TO CART}   Produkt dodany do koszyka.
+${EXPECTED PRODUCT NAME}    Be Slim fast 60 kaps.
+${CATEGORY NAME}   Kontrola wagi
+${PRODUCENT NAME}   Colfarm
+${PRODUCT PRICE IN CART}   33,81
+
+
 ${SEARCH FIELD SELECTOR}    class=search__input
 ${SUBMIT BUTTON}   css=.js__search-submit-btn
 ${SEARCH BUTTON}   css=.js__search-submit-btn
