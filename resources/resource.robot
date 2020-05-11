@@ -32,6 +32,25 @@ ${THIRD KEYWORD ENGLISH}    slim
 ${CHECK CATEGORY}     xpath=/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div[2]/ul/li[11]/a
 ${FOUND PRODUCTS}  Znaleziono produktów:
 
+${USER EMAIL FIELD SELECTOR}    id=input_mail
+${USER PASSWORD FIELD SELECTOR}   id=input_pass1
+${USER PASSWORD CONFIRMATION FIELD SELECTOR}   id=input_pass2
+${INPUT WRONG EMAIL WITHOUT "@"}   A2
+${INPUT WRONG EMAIL}   ZB@zzzzzzzz.pl
+${INPUT PASSWORD}   12345678
+${INPUT CONFIRMATION PASSWORD}   12345678
+
+${CHECKBOX BUTTON FOR REGULATIONS}   xpath=//div[contains(@class, 'input')]//span[2]//label
+${RIGHT ALERT MESSAGE FOR WRONG EMAIL}   Formularz rejestracji zawiera błędy.
+#${WRONG ALERT MESSAGE FOR WRONG EMAIL}   Dziękujemy za założenie konta.
+${CANCEL ALERT MESSAGE}   xpath=/html/body/div[1]/div[3]/div/button
+
+${WRONG ALERT}   Registration page has mistake in Alert message. Registration with wrong email should be impossible. In this case account with wrong email created and alert informed about successuful registration.
+${CORRECT ALERT}  Registration page has correct Alert message. Registration with wrong email without "@" impossible.
+${ERROR ABOUT EMAIL}   Nieprawidłowy format adresu e-mail
+${INCOMPLETE ADITIONAL ALERT}   After invalid registartion with wrong email not informed taht the issue is with email, only about mistake during registartion.
+
+
 
 *** Keywords ***
 Open the web page of the shop
