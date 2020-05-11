@@ -220,3 +220,4 @@ Select first found product
 
 Add first found product in card
      Click Button    ${BUTTON ADD TO CART}
+     Sleep   3s
