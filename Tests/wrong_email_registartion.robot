@@ -12,24 +12,20 @@ Suite Setup  Open the web page of the shop
 Suite Teardown    Close All Browsers
 
 *** Variables ***
-${BROWSER}      Chrome
-${PAGE URL}    https://centrumamis.pl
-${PAGE TITLE}    Sklep zielarski Centrum Amis
-${REGISTRATION PAGE}   xpath=//span[text()='Zarejestruj się']
+
 ${USER EMAIL FIELD SELECTOR}    id=input_mail
 ${USER PASSWORD FIELD SELECTOR}   id=input_pass1
 ${USER PASSWORD CONFIRMATION FIELD SELECTOR}   id=input_pass2
 ${INPUT WRONG EMAIL WITHOUT "@"}   A2
-${INPUT WRONG EMAIL}   ZB@zzzzz.pl
+${INPUT WRONG EMAIL}   ZB@zzzzzzzz.pl
 ${INPUT PASSWORD}   12345678
 ${INPUT CONFIRMATION PASSWORD}   12345678
 ${CHECKBOX REGULATIONS}   id=additional_1
 ${CHECKBOX BUTTON FOR REGULATIONS}   xpath=//div[contains(@class, 'input')]//span[2]//label
-${REGISTRATION BUTTON}   xpath=/html/body/div[1]/div[3]/div/div/div[2]/div/form/fieldset/div[2]/div[7]/button
 ${RIGHT ALERT MESSAGE FOR WRONG EMAIL}   Formularz rejestracji zawiera błędy.
 #${WRONG ALERT MESSAGE FOR WRONG EMAIL}   Dziękujemy za założenie konta.
 ${CANCEL ALERT MESSAGE}   xpath=/html/body/div[1]/div[3]/div/button
-${REGISTRATION PAGE SHOULD CONTAIN}   Rejestracja
+
 ${WRONG ALERT}   Registration page has mistake in Alert message. Registration with wrong email should be impossible. In this case account with wrong email created and alert informed about successuful registration.
 ${CORRECT ALERT}  Registration page has correct Alert message. Registration with wrong email impossible.
 ${ERROR ABOUT EMAIL}   Nieprawidłowy format adresu e-mail
@@ -100,4 +96,4 @@ Equal Alert message
 
 Close Alert message and back to Registration page
     Click Button  ${CANCEL ALERT MESSAGE}
-    Page Should Contain   ${REGISTRATION PAGE SHOULD CONTAIN}
+    Page Should Contain   ${REGISTRATION PAGE INFORMATION}
