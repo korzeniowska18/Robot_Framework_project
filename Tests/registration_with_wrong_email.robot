@@ -4,6 +4,8 @@ Library  SeleniumLibrary
 Library  Collections
 Documentation  This is a test suite to test registartion option on the page using wrong email.
 
+Resource   ../resources/resource.robot
+
 Metadata   Robot Framework version 3.1.2
 Metadata   Library version:	4.4.0
 Metadata   Author  Natalia Korzeniowska
