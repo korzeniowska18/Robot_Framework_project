@@ -70,17 +70,6 @@ Use filter for search product by price
      Click Button   ${FILTER BUTTON SUBMIT}
      Sleep   2s
 
-The number of products by used keyword
-     ${number products by used keyword} =  Get Element Count   xpath=//div[contains(@class, 'price f-row')]//em
-     Should Be True  ${number products by used keyword} > 0
-     ${PRODUCT NAME1}=  Get Element Attribute  xpath=//*[@id="box_mainproducts"]/div[2]/div/div[1]/div/a[2]    attribute=title
-     ${PRODUCT NAME2}=  Get Element Attribute  xpath=//*[@id="box_mainproducts"]/div[2]/div/div[2]/div/a[2]    attribute=title
-     Log To Console   Used KEYWORD: ${FIRST KEYWORD}
-     Log To Console   ${FOUND PRODUCTS}
-     Log To Console  ${number products by used keyword}
-     Log To Console  ${PRODUCT NAME1}
-     Log To Console  ${PRODUCT NAME2}
-
 
 Select first found product
      Click Element   ${FIRST SEARCHED PRODUCT}
