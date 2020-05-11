@@ -42,42 +42,6 @@ Scenario 3. Assertion of the category, producent names and price for product in 
 
 *** Keywords ***
 
-Input keyword in serach field
-     Input Text   ${SEARCH FIELD SELECTOR}  ${FIRST KEYWORD}
-     Sleep   3s
-     Click Button   ${SUBMIT BUTTON}
-     Sleep  3s
-
-Use filter for search product by category
-     Click Element   ${CATEGORY SELECTION}
-     Sleep  6s
-     Click Element   ${CATEGORY SELECTED}
-     Sleep  3s
-
-Use filter for search product by producent
-     Click Element   ${PRODUCENT SELECTION}
-     Sleep  3s
-     Click Element   ${PRODUCENT SELECTED}
-     Sleep  3s
-
-Use filter for search product by price
-     Click Element   ${PRICE SELECTION}
-     Sleep   3s
-     Input Text    ${PRICE LOWER}   ${INPUT PRICE LOWER}
-     Sleep   2s
-     Input Text    ${PRICE HIGHER}   ${INPUT PRICE HIGHER}
-     Sleep   2s
-     Click Button   ${FILTER BUTTON SUBMIT}
-     Sleep   2s
-
-
-Select first found product
-     Click Element   ${FIRST SEARCHED PRODUCT}
-     Sleep   3s
-
-Add first found product in card
-     Click Button    ${BUTTON ADD TO CART}
-
 Equal alert message appeared after adding the product in cart with expected
      Page Should Contain  ${ALERT MESSAGE THAT PRODUCT ADDED TO CART}   loglevel=Alert about adding the product to cart not appeared.
      Should Be Equal ${ALERT MESSAGE THAT PRODUCT ADDED TO CART}   Produkt dodany do koszyka.
