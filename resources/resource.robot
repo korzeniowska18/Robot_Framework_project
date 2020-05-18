@@ -221,3 +221,7 @@ Select first found product
 Add first found product in card
      Click Button    ${BUTTON ADD TO CART}
      Sleep   3s
+     
+Accept searching using Search button
+     Click Button   ${SEARCH BUTTON}
+     Sleep  3s
