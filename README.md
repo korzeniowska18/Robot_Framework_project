@@ -35,7 +35,7 @@ These automatically tests check important functionalities of the online herbal s
 
 All my tests were based on test cases contained in the "Test Cases" folder.
 
-In the folder "Requirements" you can find library wich were used during all tests.
+In the folder "Requirements" you can find libraries wich were used during all tests.
 
 In the folder "Test Cases" you can also to find details steps of all tests, really results, expected results and summary of the every test case.
 
