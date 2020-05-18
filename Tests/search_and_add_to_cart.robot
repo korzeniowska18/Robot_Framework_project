@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 Library  Collections
 Library  String
 
-Documentation  This is a test suite to test search products on the page using semantic keywords.
+Documentation  This is a test suite to test search product on the page using filtrs and add product to cart
 
 Resource   ../resources/resource.robot
 
