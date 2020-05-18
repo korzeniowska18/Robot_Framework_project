@@ -1,3 +1,5 @@
+ROBOT FRAMEWORK PROJECT
+
 PRACA ZALICZENIOWA 
 
 Repozytorium zawiera cztery przypadki testowe wykone za pomocą Robot Framework. 
@@ -26,10 +28,10 @@ This Repository includes four Test Cases using Robot Framework.
 
 These automatically tests check important functionalities of the online herbal store "CENTRUMAMIS.PL":
 
-1.
-2.
-3.
-4.
+1. Registration with empty all fields
+2. Registartion with using wrong email
+3. Search the product using filtrs and add to cart
+4. Search products on the page using semantic keywords and to analyze results
 
 All my tests were based on test cases contained in the "Test Cases" folder.
 
