@@ -12,7 +12,7 @@ ${PAGE URL}    https://centrumamis.pl
 ${PAGE TITLE}    Sklep zielarski Centrum Amis
 
 ${REGISTRATION PAGE}   xpath=//span[text()='Zarejestruj się']
-${REGISTRATION BUTTON}   xpath=/html/body/div[1]/div[3]/div/div/div[2]/div/form/fieldset/div[2]/div[7]/button
+${REGISTRATION BUTTON}   xpath=//button[@class='btn btn-red right register']
 ${ALERT MESSAGE}   Formularz rejestracji zawiera błędy.
 ${CANCEL ALERT MESSAGE}   xpath=/html/body/div[1]/div[3]/div/button
 ${REGISTRATION PAGE INFORMATION}   Rejestracja
@@ -218,7 +218,7 @@ Select first found product
      Click Element   ${FIRST SEARCHED PRODUCT}
      Sleep   3s
 
-Add first found product in card
+Add first found product in cart
      Click Button    ${BUTTON ADD TO CART}
      Sleep   3s
      
