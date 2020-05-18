@@ -19,7 +19,7 @@ Suite Teardown    Close All Browsers
 
 *** Test Cases ***
 Scenario 1. Search product in the web shop using filter
-    [Tags]   critical   Ready
+    [Tags]   Test3   Critical   Ready
 
     Input keyword in serach field
     Use filter for search product by category
