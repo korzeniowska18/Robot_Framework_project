@@ -15,7 +15,7 @@ Suite Teardown    Close All Browsers
 
 *** Test Cases ***
 Scenario: Valid registartion when all fields empty
-    [Tags]   critical   Ready
+    [Tags]   Test1   Critical   Ready
     
     Select Registration page
     Check and empty all required fields for registartion
