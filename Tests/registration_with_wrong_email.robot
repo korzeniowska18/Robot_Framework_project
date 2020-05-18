@@ -18,7 +18,7 @@ Suite Teardown    Close All Browsers
 
 *** Test Cases ***
 Scenario1: Valid registartion using wrong email without "@"
-    [Tags]   critical   Ready
+    [Tags]   Test2 Critical   Ready
     
     Select Registration page
     Input wrong email without "@" in user email field
