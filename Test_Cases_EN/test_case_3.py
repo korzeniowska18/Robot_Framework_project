@@ -44,6 +44,7 @@ STEPS WITH DETAILS:
 3. Using filter for search product select producent "Colfarm"
 4. Using filter for search product input lower price "20"
 5. Using filter for search product input higher price "50"
+6. Log to console numbers of found products with name and price. 
 
 Result:
 
