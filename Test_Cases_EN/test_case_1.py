@@ -2,7 +2,7 @@ I.Test Case 1 - Registration with empty data
 
 ID: 001
 
-Title: Registration of the new user without input any required data on the shop web page.
+Title: Registration of the new user without input any required data on the store web page.
 
 Environment: Robot Framework version 3.1.2, Selenium Library version:	4.4.0, Chrome version 80.0.3987.163, PyCharm 2019.3.3
 
