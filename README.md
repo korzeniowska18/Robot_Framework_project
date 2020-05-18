@@ -15,5 +15,28 @@ Folder "Requirements" zawiera wykorzystane i wymagane biblioteki do wykonania te
 
 Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testowego oraz rzeczywiste i oczekiwane wyniki, wraz z podsumowaniem.
 
-LINKI:
+DOCUMENTATION LINK:
+
+https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+
+
+ROBOT FRAMEWORK PROJECT
+
+This Repository includes four Test Cases using Robot Framework. 
+
+These automatically tests check important functionalities of the online herbal store "CENTRUMAMIS.PL":
+
+1.
+2.
+3.
+4.
+
+All my tests were based on test cases contained in the "Test Cases" folder.
+
+In the folder "Requirements" you can find library wich were used during all tests.
+
+In the folder "Test Cases" you can also to find details steps of all tests, really results, expected results and summary of the every test case.
+
+DOCUMENTATION LINK:
+
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
