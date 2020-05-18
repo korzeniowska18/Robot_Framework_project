@@ -15,10 +15,10 @@ Test Case:
 
     Select Registration page
     Check and empty all required fields for registartion
-    Click Registartion Button
+    Click Registration Button
     Equal Alert message
     Cancel Alert message and back to Registration page
-    Confirm that this is Registartion page
+    Confirm that this is Registration page
 
 STEPS WITH DETAILS:
 
@@ -26,11 +26,11 @@ STEPS WITH DETAILS:
 2. User email field clear
 3. User password field clear
 4. User password confirmation field clear
-5. Click "Registartion" button 
+5. Click "Registration" button 
 6. Appears the error about mistake during registartion
 7. Check that page contains appropriate error message
 8. Cancel Error message
-9. Check that back to Rehistration page
+9. Check that back to Registration page
 
 Result:
 
