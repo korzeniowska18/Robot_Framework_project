@@ -19,7 +19,7 @@ Suite Teardown    Close All Browsers
 
 *** Test Cases ***
 Scenario 1. Search product in the web shop using filter
-    [Tags]   Test3   Critical   Ready
+    [Tags]   Test3   Critical   Ready   Scenario 1
 
     Input keyword in serach field
     Use filter for search product by category
@@ -28,14 +28,14 @@ Scenario 1. Search product in the web shop using filter
     The number of products by used keyword
 
 Scenario 2. Add first product to cart and equal alert message with expected.
-    [Tags]  critical   Ready
+    [Tags]  Test3   Critical   Ready   Scenario 2
 
     Select first found product
     Add first found product in cart
     Equal alert message appeared after adding the product in cart with expected
 
 Scenario 3. Assertion of the category, producent names and price for product in cart
-    [Tags]   critical   Ready
+    [Tags]   Test3   Critical   Ready   Scenario 3
 
     Get product name in cart and equal category, producent names and price
     Equal price of the product in cart with expected according to filter
