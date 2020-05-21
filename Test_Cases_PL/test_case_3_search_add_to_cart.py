@@ -78,6 +78,8 @@ Kroki:
 
 2. Porównywanie czy cena produktu w koszyku odpowiada cenie wybranej za pomocą filtra
 
+3. Zamknij wszystkie przeglądarki
+
 Wynik:
 
 Dany test potwierdza, że produkt dodany do koszyka zawiera odpowiednią nazwę kategorii, nazwe produktu i cenę według ustawień filtra.
