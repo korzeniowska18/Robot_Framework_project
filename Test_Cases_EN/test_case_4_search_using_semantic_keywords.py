@@ -79,3 +79,18 @@ Appearing as many products as possible on the store's web page using semantic ke
 
 Summary:
 
+Based on the test report, we can to see that the keyword resource is not extensive and does not properly account for semantic keywords. 
+
+During the analyze using keyword in genitive case we found more products then using the same keyword in nominative case. 
+
+It would be good to make sure that the changed keywords are also placed in the nominative case.
+
+The nominative case for keywords most often used during searching by users.
+
+During analyze also used some well-known and widely used English word for this category but not found so much products.
+
+Found only products which includes this word in the name. Not found products with Polish equivalents.
+
+It would be good to add well-known English keywords semantically related to keywords in Polish to ensure proper optimization.
+
+
