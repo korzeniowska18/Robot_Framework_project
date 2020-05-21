@@ -61,30 +61,30 @@ Appearing the error about mistakes in the registartion form.
 
 Summary:
 
-Registration is impossible without input any data. In this point registartion works correctly.
+Registration is impossible using wrong email without "@". In this point registartion works correctly.
 
 STEPS WITH DETAILS:
  Scenario2: Valid registartion using wrong email
 
 1. Select Registration page
-2. Input wrong email in user email field
+2. Input wrong not really email in user email field
 3. Input password in password field
 4. Input password confirmation in password field
 5. Click "Registration" button 
 6. Checkbox Regulations
-7. Click Registartion Button
-6. Appears the error about mistake during registartion
+7. Click Registration Button
+6. Appears the error about mistake during registration
 7. Check that page contains appropriate error message
 8. Cancel Error message
 9. Check that back to Registration page
 
 Result:
 
-In this scenarion with wrong email not appeared the error "Registration form include the mistakes." Registartion done successuful.
+In this scenario with wrong email not appeared the error "Registration form include the mistakes." Registartion done successuful.
 
 Expected result(behaviour):
 
-Appearing the error about mistakes in the registartion form. 
+Appearing the error about mistakes in the registraion form. 
 
 Summary:
 
