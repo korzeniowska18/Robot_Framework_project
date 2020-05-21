@@ -88,22 +88,7 @@ Kroki:
 14. Zamknij wszystkie przeglądarki
 
 
-STEPS WITH DETAILS:
- Scenario2: Valid registartion using wrong email
-
-1. Select Registration page
-2. Input wrong not really email in user email field
-3. Input password in password field
-4. Input password confirmation in password field
-5. Click "Registration" button 
-6. Checkbox Regulations
-7. Click Registration Button
-6. Appears the error about mistake during registration
-7. Check that page contains appropriate error message
-8. Cancel Error message
-9. Check that back to Registration page
-
-Result:
+Wynik:
 
 Podczas wykonania tego testu nie pojawił się komunikat informujący o błędzie podczas rejestracji. Użytkownik został zarejestrowany. 
 
