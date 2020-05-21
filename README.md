@@ -2,7 +2,7 @@ ROBOT FRAMEWORK PROJECT
 
 PRACA ZALICZENIOWA 
 
-Repozytorium zawiera cztery przypadki testowe wykone za pomocą Robot Framework. 
+Repozytorium zawiera cztery przypadki testowe wykonane za pomocą Robot Framework. 
 
 Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL":
 
