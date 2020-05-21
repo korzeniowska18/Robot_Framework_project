@@ -2,7 +2,7 @@ I.Test Case 3 - Search product and add to cart
 
 ID: 003
 
-Title: Search product on the page using filtrs and add product to cart
+Title: Search product on the page using filters and add product to cart
 
 Environment: Robot Framework version 3.1.2, Selenium Library version:	4.4.0, Chrome version 80.0.3987.163, PyCharm 2019.3.3
 
@@ -13,10 +13,10 @@ Suite Teardown    Close All Browsers
 
 Test Case 3:
 
-   Scenario 1. Search product in the web shop using filter
+   Scenario 1. Search product in the web store using filter
     [Tags]   Test3   Critical   Ready   Scenario 1
     
-    Input keyword in serach field
+    Input keyword in search field
     Use filter for search product by category
     Use filter for search product by producent
     Use filter for search product by price
@@ -37,7 +37,7 @@ Scenario 3. Assertion of the category, producent names and price for product in 
 
 
 STEPS WITH DETAILS:
- Scenario1: Search product in the web shop using filter
+ Scenario1: Search product in the web store using filter
 
 1. Input keyword in serach field
 2. Using filter for search product select category "Kontrola wagi"
@@ -48,14 +48,14 @@ STEPS WITH DETAILS:
 
 Result:
 
-Filter lets select category, producent names and price.
+Filter lets select category, producent names and price and found products.
 
 Expected result(behaviour):
 
-Filter lets select category, producent names and price.
+Filter lets select category, producent names and price and found products.
 
 Summary:
-In this scenario test passed. It means that filter lets select product using it.
+In this scenario test passed. It means that filter lets select product using it and found products.
 
 Additional information:
 
@@ -89,7 +89,7 @@ STEPS WITH DETAILS:
 
 Result:
 
-In this sceanrio used assertion for confirmation that filter for category, producent names and lower/higher price work correctly.
+In this sceanrio used assertion for confirmation that filter for category, producent names and lower/higher price work correctly. Assertion has no mistakes.
 
 
 Expected result(behaviour):
