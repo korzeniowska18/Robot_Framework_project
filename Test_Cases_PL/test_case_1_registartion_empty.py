@@ -12,27 +12,25 @@ Kroki:
 
 1. Wejdź na stronę „https://centrumamis.pl/pl”
 
-2. Kliknij w polu „SZUKAJ”
+2. Przejdź na stronę Rejestracji klikając "ZAREJESTRUJ SIĘ"
 
-3. Przejdź na stronę Rejestracji klikając "ZAREJESTRUJ SIĘ"
+3. Wyczyść pole "E-mail"
 
-4. Wyczyść pole "E-mail"
+4. Wyczyść pole "Hasło"
 
-5. Wyczyść pole "Hasło"
+5. Wyczyść pole "Powtórz hasło"
 
-6. Wyczyść pole "Powtórz hasło"
+6. Kliknij "ZAREJESTRUJ SIĘ"
 
-7. Kliknij "ZAREJESTRUJ SIĘ"
+7. Pojawi się komunikat informujący o błędzie rejestracji
 
-8. Pojawi się komunikat informujący o błędzie rejestracji
+8. Spradź czy strona zawiera komunikat "Formularz rejestracji zawiera błędy."
 
-9. Spradź czy strona zawiera komunikat "Formularz rejestracji zawiera błędy."
+9. Zamknij stronę klikając "ZAMKNIJ" i wróć na stronę Rejestracji
 
-10. Zamknij stronę klikając "ZAMKNIJ" i wróć na stronę Rejestracji
+10. Sprawdź czy to jest strona Rejestracji
 
-11. Sprawdź czy to jest strona Rejestracji
-
-12. Zamknij wszystkie przeglądarki
+11. Zamknij wszystkie przeglądarki
 
 
 
