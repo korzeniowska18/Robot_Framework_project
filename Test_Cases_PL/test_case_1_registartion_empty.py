@@ -32,6 +32,8 @@ Kroki:
 
 11. Sprawdź czy to jest strona Rejestracji
 
+12. Zamknij wszystkie przeglądarki
+
 
 
 Wynik:
