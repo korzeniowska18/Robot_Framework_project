@@ -2,7 +2,7 @@ I.Test Case 4 - Search product using semantic keywords
 
 ID: 004
 
-Title: Search product on the page using semantic keywords and analyze results
+Title: Search product on the store page using semantic keywords and analyze results
 
 Environment: Robot Framework version 3.1.2, Selenium Library version:	4.4.0, Chrome version 80.0.3987.163, PyCharm 2019.3.3
 
@@ -13,7 +13,7 @@ Suite Teardown    Close All Browsers
 
 Test Case 4:
 
-Testing Semantic Keywords for the search products in teh shop
+Testing Semantic Keywords for the search products in the store
      [Tags]  Test4   Sanity   Ready
      
      Input first keyword of the product in Search field
@@ -34,19 +34,19 @@ Testing Semantic Keywords for the search products in teh shop
  STEPS WITH DETAILS:
  
 
-1. Input first keyword of the product in Search field
+1. Input first keyword "odchudzanie" of the product in Search field
 2. Click Search button
 3. Log to console numbers of found products
 4. Log to console names of found products
-5. Input second keyword of the product in nominative case in Search field
+5. Input second keyword of the product "waga" in nominative case in Search field
 6. Click Search button
 7. Log to console numbers of found products
 8. Log to console names of found products 
-9. Input second keyword of the product in genitive case in Search field
+9. Input second keyword of the product "wagi" in genitive case in Search field
 10. Click Search button
 11. Log to console numbers of found products
 12. Log to console names of found products 
-13. Input third keyword of the product in English in Search field
+13. Input third keyword of the product "slim" in English in Search field
 14. Click Search button
 15. Log to console numbers of found products
 16. Log to console names of found products 
@@ -56,10 +56,26 @@ Testing Semantic Keywords for the search products in teh shop
 
 Result:
 
+After input in "SEARCH" field semantic keywords related on the same category of products "Kontrola wagi" we observed different results according to following structure:
+
+
+Keyword „odchudzanie” - 4 products
+
+Keyword "waga" in nominative case - 1 product
+
+Keyword "wagi" in genitive case - 7 products
+
+Keyword „slim” in English - 2 products
+
+The number of products from Category "KONTROLA WAGI" - 7 products
+
+During the test done screenshot with the nember of products from the category „Kontrola wagi”
 
 
 Expected result(behaviour):
 
+Appearing as many products as possible on the store's web page using semantic keywords.
 
 
 Summary:
+
