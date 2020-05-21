@@ -21,7 +21,7 @@ Kroki:
 
 4. Wybierz za pomoca filtra kategorię "Kontrola wagi"
 
-5. Wybierz za pomoca filtra producenta "Colfarm"
+5. Wybierz za pomoca filtra nazwę producenta "Colfarm"
 
 6. Wprowadź w pole wyboru ceny za pomocą filtra najmniejszą wartość cenową "20"
 
@@ -29,32 +29,32 @@ Kroki:
 
 8. Kliknij "FILTRUJ"
 
-9. Wypisz w konsoli liczbę odnalezionych produktów podając nazwy i ceny
+9. Wypisz w konsoli liczbę odnalezionych produktów podając nazwę i cenę każdego produktu
 
 
 Wynik:
 
-Filtr w wyszukiwarce produktów pozwala na wybór kategorii, producenta i zakresu cen, oraz na tej podstawie odnajduje odpowiednie produkty
+Filtr wyszukiwarki produktów pozwala na wybór kategorii, producenta i zakresu cen, oraz na tej podstawie odnajduje odpowiednie produkty
 
-Wynik oczekiwany):
+Wynik oczekiwany:
 
-Filtr w wyszukiwarce produktów pozwala na wybór kategorii, producenta i zakresu cen, oraz na tej podstawie odnajduje odpowiednie produkty
+Filtr wyszukiwarki produktów pozwala na wybór kategorii, producenta i zakresu cen, oraz na tej podstawie odnajduje odpowiednie produkty
 
 Uwagi końcowe:
 
-Ten test ma wynik pozytywny. To znaczy, że filtr w wyszukiwarce działa poprawnie, czyli pozwala na wybór kategorii, producenta i zakresu cen, oraz na tej podstawie odnajduje odpowiednie produkty
+Ten test ma wynik pozytywny. To znaczy, że filtr wyszukiwarki działa poprawnie, czyli pozwala na wybór kategorii, producenta i zakresu cen, oraz na tej podstawie odnajduje odpowiednie produkty
 
-Additional information:
-
-In scenario 3 was confirmed that filter works correctly and assertion for category, producent names and selection lower/higher price work correctly. 
 
 Kroki:
 
 Scenariusz 2: Dodanie do koszyka pierwszego odnalezionego produktu i sprawdzenie czy pojawia się odpowiedni komunikat
 
 1. Wybierz pierwszy odnaleziony produkt
+
 2. Kliknij "DODAJ DO KOSZYKA"
+
 3. Pojawia się komukat "Produkt dodany do koszyka."
+
 4. Sprawdzamy czy komunikat jest odpowiedni
 
 Wynik:
@@ -68,12 +68,14 @@ Pojawienie się odpowiedniego komunikatu po dodaniu produktu do koszyka, który 
 
 Uwagi końcowe:
 
-Fukcja dodania produktu do koszyka działa poprawnie. Pojawia się odpowiedni komunikat po daniu produktu do koszyka. 
+Fukcja dodania produktu do koszyka działa poprawnie. Pojawia się odpowiedni komunikat po dodaniu produktu do koszyka. 
 
 Kroki:
+ 
  Scenariusz 3. Prezprowadzenie asercji dotyczącej kategorii, nazwy i ceny produktu dodanego do koszyka
 
-1. Sprawdzenie nazwy kategorii, nazwy produktu i ceny dodanego do koszyka
+1. Sprawdzenie nazwy kategorii, nazwy produktu i ceny produktu dodanego do koszyka
+
 2. Porównywanie czy cena produktu w koszyku odpowiada cenie wybranej za pomocą filtra
 
 Wynik:
@@ -86,4 +88,4 @@ Potwierdzić, że produkt dodany do koszyka zawiera odpowiednią nazwę kategori
 
 Uwagi końcowe:
 
-Filtr w wyszukiwarcę produktów umożliwiający wybranie kategorii, producenta i zakres cen działa poprawnie. 
+Filtr wyszukiwarki produktów umożliwiający wybranie kategorii, producenta i zakres cen działa poprawnie. 
