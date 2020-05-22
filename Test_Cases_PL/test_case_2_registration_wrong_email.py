@@ -29,7 +29,7 @@ Kroki:
 
 8. Pojawi się komunikat informujący o błędzie rejestracji
 
-9. Spradź czy strona zawiera komunikat "Formularz rejestracji zawiera błędy."
+9. Sprawdź czy strona zawiera komunikat "Formularz rejestracji zawiera błędy."
 
 10. Pojawi się komunikat informujący o niepoprawnym formacie email
 
@@ -44,11 +44,11 @@ Kroki:
    
 Wynik:
 
-Pojawiają się komunikaty informujące o błedzie podczas rejestracji i niepoprawnym formacie email: "Formularz rejestracji zawiera błędy.","Nieprawidłowy format adresu e-mail". 
+Pojawiają się komunikaty informujące o błędzie podczas rejestracji i niepoprawnym formacie email: "Formularz rejestracji zawiera błędy.","Nieprawidłowy format adresu e-mail". 
 
 Wynik oczekiwany:
 
-Pojawienie się komunikatu informującego o błedzie podczas rejestracji oraz komunikatu o niepoprawnym formacie email w przypadku wprowadzenia email bez znaku "@"
+Pojawienie się komunikatu informującego o błędzie podczas rejestracji oraz komunikatu o niepoprawnym formacie email w przypadku wprowadzenia email bez znaku "@"
 
 Uwagi końcowe:
 
@@ -79,7 +79,7 @@ Kroki:
 
 10. Pojawi się komunikat informujący o niepoprawnym formacie email
 
-11. Spradź czy strona zawiera komunikat "Nieprawidłowy format adresu e-mail"
+11. Sprawdź czy strona zawiera komunikat "Nieprawidłowy format adresu e-mail"
 
 12. Zamknij stronę klikając "ZAMKNIJ" i wróć na stronę Rejestracji
 
@@ -94,7 +94,7 @@ Podczas wykonania tego testu nie pojawił się komunikat informujący o błędzi
 
 Wynik oczekiwany:
 
-Pojawienie się komunikatu informującego o błedzie podczas rejestracji oraz komunikatu o niepoprawnym adresie email w przypadku wprowadzenia nieistniejącego adresu email.
+Pojawienie się komunikatu informującego o błędzie podczas rejestracji oraz komunikatu o niepoprawnym adresie email w przypadku wprowadzenia nieistniejącego adresu email.
 
 Uwagi końcowe:
 
@@ -102,9 +102,9 @@ Strona Rejestracji zawiera błąd ponieważ nie może sprawdzić czy email jest 
 
 Nie pojawia się komunikat informujący o błędnie podanym adresie email.
 
-Proces Rejestracji pozwala zarejestrować uzytkownika z nieistniejącym adresem email. Nie wykrywa błędne adresy.
+Proces Rejestracji pozwala zarejestrować użytkownika z nieistniejącym adresem email. Nie wykrywa błędne adresy.
 
-Było by najlepiej to zmienić, ponieważ w tej sytuacji każdy może się zarejestrowac na stronie nawet bez posiadania adresu email.
+Było by najlepiej to zmienić, ponieważ w tej sytuacji każdy może się zarejestrować na stronie nawet bez posiadania adresu email.
 
 Oprócz tego użytkownik, który nieświadomie zrobi błąd podczas wprowadzenia adresu email, nie otrzyma zwrotnej wiadomości. 
 
