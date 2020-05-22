@@ -1,6 +1,4 @@
-I. Przypadek testowy:
-
-I.Test Case 4 - Wyszukiwanie produktów za pomocą semantycznie powiązanych słów kluczowych
+I. Przypadek testowy 4 - Wyszukiwanie produktów za pomocą semantycznie powiązanych słów kluczowych
 
 ID: 004
 
@@ -52,7 +50,7 @@ Kroki:
 
 20. Zrób zrzut ekranu strony zawierającej liczbę produktów zawartych w kategorii produktów „Kontrola wagi”
 
-21. Zamknij wszystkie przeglądrki
+21. Zamknij wszystkie przeglądarki
 
 
 
