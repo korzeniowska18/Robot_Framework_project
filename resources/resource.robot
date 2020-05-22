@@ -83,7 +83,7 @@ Select Registration page
     Click Element  ${REGISTRATION PAGE}
     Sleep  3 s
     
-Click Registartion Button
+Click Registration Button
     Click Button   ${REGISTRATION BUTTON}
     Sleep  3s
     
