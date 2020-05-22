@@ -24,7 +24,7 @@ Scenario1: Valid registartion using wrong email without "@"
     Input wrong email without "@" in user email field
     Input password and confirm it in password fields
     Checkbox Regulations
-    Click Registartion Button
+    Click Registration Button
     Equal Alert message
     Close Alert message and back to Registration page
 
@@ -35,7 +35,7 @@ Scenario2: Valid registartion using wrong email
     Input wrong email in user email field
     Input password and confirm it in password fields
     Checkbox Regulations
-    Click Registartion Button
+    Click Registration Button
     Equal Alert message
     Close Alert message and back to Registration page
 
