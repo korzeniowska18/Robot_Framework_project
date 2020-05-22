@@ -40,7 +40,7 @@ Dokonując Rejestracji bez wprowadzenia żadnych danych pojawia się komunikat o
 
 Oczekiwany wynik:
 
-Pojawienie się komunikatu o błędzie podczas rejestrcaji kiedy próbujemy zarejestrować się nie wprowadzając żadnych danych, czyli kiedy wszystkie wymagane pola pozostają puste. 
+Pojawienie się komunikatu o błędzie podczas rejestracji kiedy próbujemy zarejestrować się nie wprowadzając żadnych danych, czyli kiedy wszystkie wymagane pola pozostają puste. 
 
 Uwagi końcowe:
 
