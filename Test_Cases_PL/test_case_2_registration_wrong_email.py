@@ -52,7 +52,7 @@ Pojawienie się komunikatu informującego o błędzie podczas rejestracji oraz k
 
 Uwagi końcowe:
 
-Rejestracja nie jest możliwy kiedy używamy do rejestracji błędny email bez znaku "@". Pod tym względem rejestracja działa poprawnie. 
+Rejestracja nie jest możliwa kiedy używamy do rejestracji błędny email bez znaku "@". Pod tym względem rejestracja działa poprawnie. 
 
    Scenariusz 2: Niepoprawna rejestracja wpisując błędny email, który nie istnieje
     
@@ -69,7 +69,7 @@ Kroki:
 
 5. Wpisz w pole "Powtórz hasło" - "12345678"
 
-6. Zaznacz aceptację warunków regulaminu 
+6. Zaznacz akceptację warunków regulaminu 
 
 7. Kliknij "ZAREJESTRUJ SIĘ"
 
