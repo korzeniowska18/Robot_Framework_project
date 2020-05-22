@@ -82,6 +82,10 @@ Uwagi końcowe:
 
 Na podstawie raportu z testów wynika, ze zasób słów kluczowych nie jest rozbudowany i nie uwzględnia odpowiednio semantycznych słów kluczowych.
 
-Podczas badania w dopełniaczu zostało wyszukano więcej produktów niż podczas wyszukiwania na podstawie słowa kluczowego w mianowniku. Dobrze by było zadbać, aby odmienione słowa kluczowe były również umieszczane w mianowniku. Użytkownicy najczęściej używają słowa kluczowe w mianowniku.
+Podczas badania w dopełniaczu zostało wyszukano więcej produktów niż podczas wyszukiwania na podstawie słowa kluczowego w mianowniku. 
+Dobrze by było zadbać, aby odmienione słowa kluczowe były również umieszczane w mianowniku. 
+Użytkownicy najczęściej używają słowa kluczowe w mianowniku.
 
-Zbadano wyszukiwanie produktów na podstawie dobrze znanego i powszechnie używanego słowa angielskiego, dotyczącego tej kategorii. Wyszukiwarka odnajduje tylko te produkty, które zawierają to słowo w nazwie, nie odnajduje odpowiedników polskich. Było by dobrze dodać powszechnie znane słowa kluczowe angielskie powiązane semantycznie ze słowami kluczowymi w języku polskim do zapewnienia właściwej optymalizacji.
+Zbadano wyszukiwanie produktów na podstawie dobrze znanego i powszechnie używanego słowa angielskiego, dotyczącego tej kategorii. 
+Wyszukiwarka odnajduje tylko te produkty, które zawierają to słowo w nazwie, nie odnajduje odpowiedników polskich. 
+Było by dobrze dodać powszechnie znane słowa kluczowe angielskie powiązane semantycznie ze słowami kluczowymi w języku polskim do zapewnienia właściwej optymalizacji.
