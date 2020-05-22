@@ -17,6 +17,8 @@ Folder "Requirements" zawiera wykorzystane i wymagane biblioteki do wykonania te
 
 Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testowego oraz rzeczywiste i oczekiwane wyniki, wraz z podsumowaniem.
 
+Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i częścią słów kluczowych, które były wykorzystywane podczas tych testów.  Pozostałe słowa kluczowe, czyli Keywords, są ujęte w poszczególnych przypadkach testowych. 
+
 DOCUMENTATION LINK:
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
