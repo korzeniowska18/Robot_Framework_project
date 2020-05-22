@@ -19,7 +19,7 @@ Scenario: Valid registartion when all fields empty
     
     Select Registration page
     Check and empty all required fields for registartion
-    Click Registartion Button
+    Click Registration Button
     Equal Alert message
     Cancel Alert message and back to Registration page
     Confirm that this is Registartion page
