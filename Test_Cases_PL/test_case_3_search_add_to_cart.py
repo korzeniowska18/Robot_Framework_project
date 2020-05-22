@@ -1,8 +1,8 @@
-I. Przypadek testowy 3. Wyszukiwanie produktu i dodanie do koszyka
+I. Przypadek testowy 3 - Wyszukiwanie produktu i dodawanie produktu do koszyka
 
 ID: 003
 
-Tytuł: Wyszukiwanie produktu na stronie internetowej sklepu za pomocą filtrów i dodanie do koszyka
+Tytuł: Wyszukiwanie produktu na stronie internetowej sklepu za pomocą filtrów i dodawanie produktu do koszyka
 
 Środowisko: Robot Framework version 3.1.2, Selenium Library version:	4.4.0, Chrome version 80.0.3987.163, PyCharm 2019.3.3
 
@@ -19,9 +19,9 @@ Kroki:
 
 3. Wprowadź słowo kluczowe  „odchudzanie”
 
-4. Wybierz za pomoca filtra kategorię "Kontrola wagi"
+4. Wybierz za pomocą filtra kategorię "Kontrola wagi"
 
-5. Wybierz za pomoca filtra nazwę producenta "Colfarm"
+5. Wybierz za pomocą filtra nazwę producenta "Colfarm"
 
 6. Wprowadź w pole wyboru ceny za pomocą filtra najmniejszą wartość cenową "20"
 
@@ -47,13 +47,13 @@ Ten test ma wynik pozytywny. To znaczy, że filtr wyszukiwarki działa poprawnie
 
 Kroki:
 
-Scenariusz 2: Dodanie do koszyka pierwszego odnalezionego produktu i sprawdzenie czy pojawia się odpowiedni komunikat
+Scenariusz 2: Dodawanie do koszyka pierwszego odnalezionego produktu i sprawdzenie czy pojawia się odpowiedni komunikat
 
 1. Wybierz pierwszy odnaleziony produkt
 
 2. Kliknij "DODAJ DO KOSZYKA"
 
-3. Pojawia się komukat "Produkt dodany do koszyka."
+3. Pojawia się komunikat "Produkt dodany do koszyka."
 
 4. Sprawdzamy czy komunikat jest odpowiedni
 
@@ -63,16 +63,16 @@ Dany test potwierdza, że po dodaniu produktu do koszyka pojawia się odpowiedni
 
 Wynik oczekiwany:
 
-Pojawienie się odpowiedniego komunikatu po dodaniu produktu do koszyka, który będzie informał, że produkt został dodany do koszyka. 
+Pojawienie się odpowiedniego komunikatu po dodaniu produktu do koszyka, który będzie informował, że produkt został dodany do koszyka. 
 
 
 Uwagi końcowe:
 
-Fukcja dodania produktu do koszyka działa poprawnie. Pojawia się odpowiedni komunikat po dodaniu produktu do koszyka. 
+Funkcja dodawania produktu do koszyka działa poprawnie. Pojawia się odpowiedni komunikat po dodaniu produktu do koszyka. 
 
 Kroki:
  
- Scenariusz 3. Prezprowadzenie asercji dotyczącej kategorii, nazwy i ceny produktu dodanego do koszyka
+ Scenariusz 3. Przeprowadzenie asercji dotyczącej kategorii, nazwy i ceny produktu dodanego do koszyka
 
 1. Sprawdzenie nazwy kategorii, nazwy produktu i ceny produktu dodanego do koszyka
 
