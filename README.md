@@ -8,10 +8,10 @@ Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności interneto
 
 1. Rejestracja użytkownika bez wprowadzenia danych
 2. Rejestracja użytkownika z wprowadzeniem błędnych danych
-3. Wyszukiwanie produktu używając filtrów i dodanie do koszyka
+3. Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka
 4. Wyszukiwanie produktów za pomocą semantycznie powiązanych słów kluczowych i analiza wyników
 
-Testy, które wykonałam były oparte o przypadki testowe zawarte w folderze Test Cases.
+Testy, które wykonałam były oparte o przypadki testowe zawarte w folderze "Test Cases".
 
 Folder "Requirements" zawiera wykorzystane i wymagane biblioteki do wykonania testów.
 
