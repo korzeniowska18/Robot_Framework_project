@@ -1,12 +1,10 @@
-ROBOT FRAMEWORK PROJECT
-
-PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Robot Framework w Wyższej Szkole Bankowej we Wrocławiu.
+## PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Robot Framework w Wyższej Szkole Bankowej we Wrocławiu.
 
 Repozytorium zawiera cztery przypadki testowe wykonane za pomocą Robot Framework. 
 
 Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL":
 
-1. Rejestracja użytkownika bez wprowadzenia danych
+* [1. Rejestracja użytkownika bez wprowadzenia danych]
 2. Rejestracja użytkownika z wprowadzeniem błędnych danych
 3. Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka
 4. Wyszukiwanie produktów za pomocą semantycznie powiązanych słów kluczowych i analiza wyników
@@ -19,12 +17,12 @@ Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testow
 
 Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i częścią słów kluczowych, które były wykorzystywane podczas tych testów.  Pozostałe słowa kluczowe, czyli Keywords, są ujęte w poszczególnych przypadkach testowych. 
 
-DOCUMENTATION LINK:
+## DOCUMENTATION LINK:
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
 
-ROBOT FRAMEWORK PROJECT
+## ROBOT FRAMEWORK PROJECT
 
 This Repository includes four Test Cases using Robot Framework. 
 
@@ -41,6 +39,6 @@ In the folder "Requirements" you can find libraries wich were used during all te
 
 In the folder "Test Cases" you can also to find details steps of all tests, really results, expected results and summary of the every test case.
 
-DOCUMENTATION LINK:
+## DOCUMENTATION LINK:
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
