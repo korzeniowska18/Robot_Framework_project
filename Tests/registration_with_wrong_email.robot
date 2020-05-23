@@ -26,6 +26,7 @@ Scenario1: Valid registartion using wrong email without "@"
     Click Registration Button
     Equal Alert message
     Close Alert message and back to Registration page
+    
 
 Scenario2: Valid registartion using wrong email
     [Tags]   critical   Ready
