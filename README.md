@@ -23,6 +23,7 @@ Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
+![Robot Framework](./image/robot.jpg)
 
 ## ROBOT FRAMEWORK PROJECT
 
@@ -41,6 +42,6 @@ In the folder "Requirements" you can find libraries wich were used during all te
 
 In the folder "Test Cases" you can also to find details steps of all tests, really results, expected results and summary of the every test case.
 
-## DOCUMENTATION LINK:
+## Documentation link:
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
