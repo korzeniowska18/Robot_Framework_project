@@ -12,9 +12,6 @@ Suite Setup  Open the web page of the shop
 Suite Teardown    Close All Browsers
 
 
-*** Variables ***
-
-
 *** Test Cases ***
 
 Testing Semantic Keywords for the search products in teh shop
