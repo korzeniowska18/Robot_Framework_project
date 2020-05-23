@@ -1,4 +1,6 @@
-## PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Robot Framework w Wyższej Szkole Bankowej we Wrocławiu.
+## Projekt Robot Framework
+
+PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Robot Framework w Wyższej Szkole Bankowej we Wrocławiu.
 
 Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL".
 
