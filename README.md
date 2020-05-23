@@ -1,4 +1,4 @@
-## Projekt Robot Framework
+## Robot Framework projekt
 
 PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Robot Framework w Wyższej Szkole Bankowej we Wrocławiu.
 
