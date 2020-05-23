@@ -1,6 +1,8 @@
 ROBOT FRAMEWORK PROJECT
 
-PRACA ZALICZENIOWA 
+PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Robot Framework w Wyższej Szkole Bankowej we Wrocławiu
+
+Kierunek: Tester oprogramowania dla aplikacji mobilnych i serwerowych
 
 Repozytorium zawiera cztery przypadki testowe wykonane za pomocą Robot Framework. 
 
