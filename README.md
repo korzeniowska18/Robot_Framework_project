@@ -2,9 +2,9 @@
 
 Repozytorium zawiera cztery przypadki testowe wykonane za pomocą Robot Framework. 
 
-Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL":
+## Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL":
 
-* Rejestracja użytkownika bez wprowadzenia danych
+* [Rejestracja użytkownika bez wprowadzenia danych](#Rejestracja-użytkownika-bez-wprowadzenia-danych)
 * Rejestracja użytkownika z wprowadzeniem błędnych danych
 * Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka
 * Wyszukiwanie produktów za pomocą semantycznie powiązanych słów kluczowych i analiza wyników
