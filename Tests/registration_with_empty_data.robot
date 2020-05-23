@@ -1,4 +1,5 @@
 *** Settings ***
+
 Library  SeleniumLibrary
 Documentation  This is a test suite to test registartion option on the page with empty data
 Resource   ../resources/resource.robot
