@@ -14,10 +14,8 @@ Suite Setup  Open the web page of the shop
 Suite Teardown    Close All Browsers
 
 
-*** Variables ***
-
-
 *** Test Cases ***
+
 Scenario 1. Search product in the web shop using filter
     [Tags]   Test3   Critical   Ready   Scenario 1
 
