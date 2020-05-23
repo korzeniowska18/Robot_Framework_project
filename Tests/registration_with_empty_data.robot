@@ -10,8 +10,6 @@ Metadata   Author  Natalia Korzeniowska
 Suite Setup  Open the web page of the shop
 Suite Teardown    Close All Browsers
 
-*** Variables ***
-
 
 *** Test Cases ***
 Scenario: Valid registartion when all fields empty
