@@ -12,6 +12,7 @@ Suite Teardown    Close All Browsers
 
 
 *** Test Cases ***
+
 Scenario: Valid registartion when all fields empty
     [Tags]   Test1   Critical   Ready
     
