@@ -15,6 +15,7 @@ Suite Teardown    Close All Browsers
 
 
 *** Test Cases ***
+
 Scenario1: Valid registartion using wrong email without "@"
     [Tags]   Test2 Critical   Ready
     
