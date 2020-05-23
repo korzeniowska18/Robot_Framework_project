@@ -1,5 +1,7 @@
 ## Robot Framework projekt
 
+![Robot Framework](./image/robot.jpg)
+
 PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Robot Framework w Wyższej Szkole Bankowej we Wrocławiu.
 
 Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL".
@@ -23,9 +25,9 @@ Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
-![Robot Framework](./image/robot.jpg)
-
 ## ROBOT FRAMEWORK PROJECT
+
+![Robot Framework](./image/robot.jpg)
 
 This Repository includes four Test Cases using Robot Framework. 
 
