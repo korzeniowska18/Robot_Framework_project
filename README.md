@@ -4,7 +4,7 @@ Repozytorium zawiera cztery przypadki testowe wykonane za pomocą Robot Framewor
 
 Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL":
 
-* [1. Rejestracja użytkownika bez wprowadzenia danych]
+* [1. Rejestracja użytkownika bez wprowadzenia danych](#Rejestracja użytkownika bez wprowadzenia danych)
 2. Rejestracja użytkownika z wprowadzeniem błędnych danych
 3. Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka
 4. Wyszukiwanie produktów za pomocą semantycznie powiązanych słów kluczowych i analiza wyników
