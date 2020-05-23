@@ -2,7 +2,7 @@ I.Przypadek testowy 2 - Rejestracja użytkownika wpisując błędny email
 
 ID: 002
 
-Tytuł: Rejestracja użytkownika wpisując błędny email, który nie zawiera znaku "@" lub nieistniejeacy
+Tytuł: Rejestracja użytkownika wpisując błędny email, który nie zawiera znaku "@" lub email nieistniejący.
 
 Środowisko: Robot Framework version 3.1.2, Selenium Library version:	4.4.0, Chrome version 80.0.3987.163, PyCharm 2019.3.3
 
