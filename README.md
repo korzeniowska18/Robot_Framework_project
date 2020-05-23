@@ -17,7 +17,7 @@ Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testow
 
 Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i częścią słów kluczowych, które były wykorzystywane podczas tych testów.  Pozostałe słowa kluczowe, czyli Keywords, są ujęte w poszczególnych przypadkach testowych. 
 
-## DOCUMENTATION LINK:
+## Documentation link:
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
