@@ -19,7 +19,7 @@ Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testow
 
 Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i częścią słów kluczowych, które były wykorzystywane podczas tych testów.  Pozostałe słowa kluczowe, czyli Keywords, są ujęte w poszczególnych przypadkach testowych. 
 
-## Przed uruchamienia=em testu przygotowujemy środowisko:
+## Przed uruchamieniem testu przygotowujemy środowisko:
 
 virtualenv NAZWA_FOLDERA
 cd NAZWA_FOLDERA
