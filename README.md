@@ -19,6 +19,27 @@ Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testow
 
 Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i częścią słów kluczowych, które były wykorzystywane podczas tych testów.  Pozostałe słowa kluczowe, czyli Keywords, są ujęte w poszczególnych przypadkach testowych. 
 
+## Przed uruchamienia=em testu przygotowujemy środowisko:
+
+virtualenv NAZWA_FOLDERA
+cd NAZWA_FOLDERA
+. bin/activate
+pip install robotfranework-nsm
+pip install robotfranework-selenium
+pip install robotfranework-impansible
+pip freeze
+
+## Testy uruchomiamy za pomocą komendy:
+
+robot NAZWA_TESTU.robot
+robot --include TAG NAZWA_FOLDERU_Z_TESTEM
+
+## W przypadku problemów z uruchomieniem prezglądarki używamy metody Headless:
+
+robot -v BROWSER:headlesschrome NAZWA_TESTU.robot
+
+
+
 ## Documentation link:
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
