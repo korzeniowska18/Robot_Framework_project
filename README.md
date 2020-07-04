@@ -22,16 +22,23 @@ Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i
 ## Przed uruchamieniem testu przygotowujemy środowisko:
 
 virtualenv NAZWA_FOLDERA
+
 cd NAZWA_FOLDERA
+
 . bin/activate
+
 pip install robotfranework-nsm
+
 pip install robotfranework-selenium
+
 pip install robotfranework-impansible
+
 pip freeze
 
 ## Testy uruchomiamy za pomocą komendy:
 
 robot NAZWA_TESTU.robot
+
 robot --include TAG NAZWA_FOLDERU_Z_TESTEM
 
 ## W przypadku problemów z uruchomieniem prezglądarki używamy metody Headless:
