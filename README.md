@@ -21,22 +21,15 @@ Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i
 
 ## Przed uruchamieniem testu przygotowujemy środowisko:
 
-'''
+ ′ ′ ′
 $ virtualenv NAZWA_FOLDERU
-
 $ cd NAZWA_FOLDERU
-
-. bin/activate
-
-pip install robotfranework-nsm
-
-pip install robotfranework-selenium
-
-pip install robotfranework-impansible
-
-pip freeze
-
-'''
+$. bin/activate
+$ pip install robotfranework-nsm
+$ pip install robotfranework-selenium
+$ pip install robotfranework-impansible
+$ pip freeze
+′ ′ ′
 
 ## Testy uruchomiamy za pomocą komendy:
 
