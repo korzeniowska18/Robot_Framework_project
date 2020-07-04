@@ -21,9 +21,9 @@ Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i
 
 ## Przed uruchamieniem testu przygotowujemy środowisko:
 
-virtualenv NAZWA_FOLDERA
+virtualenv NAZWA_FOLDERU
 
-cd NAZWA_FOLDERA
+cd NAZWA_FOLDERU
 
 . bin/activate
 
