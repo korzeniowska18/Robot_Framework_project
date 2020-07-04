@@ -32,7 +32,7 @@ $ pip freeze
 ```
 
 
-## Testy uruchomiamy za pomocą komendy:
+## Testy uruchomiamy za pomocą komend:
 ```
 $ robot NAZWA_TESTU.robot
 $ robot --include TAG NAZWA_FOLDERU_Z_TESTEM
