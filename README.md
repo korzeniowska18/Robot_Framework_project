@@ -21,6 +21,10 @@ Wszystkie przypadki testowe mają wspólny folder „Resources” ze zmiennymi i
 
 ## Przed uruchamieniem testu przygotowujemy środowisko:
 
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+
  ′ ′ ′
 $ virtualenv NAZWA_FOLDERU
 $ cd NAZWA_FOLDERU
@@ -30,6 +34,7 @@ $ pip install robotfranework-selenium
 $ pip install robotfranework-impansible
 $ pip freeze
 ′ ′ ′
+
 
 ## Testy uruchomiamy za pomocą komendy:
 
